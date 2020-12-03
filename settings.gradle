@@ -1,0 +1,2 @@
+rootProject.name='zikgucal'
+include ':app'

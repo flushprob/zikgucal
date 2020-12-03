@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+
+        android:background="#E19191">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n해외 쇼핑몰 안내\n"
+        android:textSize="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/fast2Btn"
+            android:text="2FAST"/>
+
+        <Button
+            android:id="@+id/tailBtn"
+            android:text="몰테일"/>
+        <Button
+            android:id="@+id/zipBtn"
+            android:text="오마이집"/>
+        <Button
+            android:id="@+id/amazonBtn"
+            android:text="Amazon"/>
+        <Button
+            android:id="@+id/bestBtn"
+            android:text="BestBuy"/>
+        <Button
+            android:id="@+id/ebayBtn"
+            android:text="ebay"/>
+
+
+    </GridLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" \n 클릭 시 각 사이트로 이동하는 브라우저가 열립니다."
+            android:textSize="19dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

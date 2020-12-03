@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">zikgucal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="cal_warning"> 계산된 금액은 대략적인 금액이며 실제 금액은 차이가 날 수 있습니다. \n 참고용으로만 사용해주세요.</string>
+
+    <string name="menu_home">직구 계산기</string>
+    <string name="menu_shopping">쇼핑몰 연결</string>
+    <string name="menu_weight">무게 계산기</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string-array name="kindArray">
+        <item>물품 종류</item>
+        <item>컴퓨터/가전</item>
+        <item>영상/음향</item>
+        <item>레져/스포츠</item>
+        <item>도서/CD</item>
+        <item>의약품/건강보조</item>
+        <item>가구/인테리어</item>
+        <item>주방</item>
+        <item>화장품/미용</item>
+        <item>식품</item>
+        </string-array>
+</resources>
